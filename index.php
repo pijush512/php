@@ -24,7 +24,14 @@ elseif($b>$a && $b>$c){
 else{
     echo "The largest number is C: " .$c;
 }
-
-echo "I am Sohag . I'm fixd this problem"
-
+// for line break
+echo " <br>";
+// justify even and odd number
+$number = 6;
+// Check if the number is even
+if($number % 2 == 0){
+    echo "This is even number";
+} else {
+    echo "This is odd number";
+}
 ?>
